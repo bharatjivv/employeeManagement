@@ -14,7 +14,6 @@ handleSubmitBtn.addEventListener('click', (e) => {
     // console.log(userName, userProf, userAge);
 
     if(userName.trim() === '' || userProf.trim() === ''  || userAge.trim() === '' ) {
-        console.log('Error : Please enter all the details')
         document.getElementById('notification').innerHTML = '<p style="color: red" >Error : Please make sure all the fields are filled before adding an employee!</p>'
         setTimeout(() => {
           document.getElementById('notification').innerHTML = '';
