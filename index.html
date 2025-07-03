@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>New Employees</h1>
+
+    <form id="employeeDetails">
+        <div class="form-group">
+            <p><label for="name">Enter Name</label></p>
+            <input 
+                type="text" 
+                name="name" 
+                placeholder="Enter Name"
+                id="name"
+                required
+            />
+        </div>
+        <div class="form-group">
+            <p><label for="profession">Enter Profession</label></p>
+            <input 
+                type="text" 
+                name="profession"
+                placeholder="Enter Profession"
+                id="profession"
+                required
+            />
+        </div>
+        <div class="form-group">
+            <p><label for="age">Enter Age</label></p>
+            <input 
+                type="number" 
+                name="age"
+                placeholder="Enter Profession"
+                id="age"
+                required
+            />
+        </div>
+        
+    </form>
+
+    <button type="submit" form="employeeDetails" id="submitBtn" class="button">Add User</button>
+
+    <div id="notification">
+        <!-- Only give error if user presses submit button without filling out all the fields. This place will only give error if all the fields are not filled and the user tries to enter details. If he adds user after adding all details, simply show the success message -->
+    </div>
+
+    <h2>Added Employees</h2>
+    <div id="employeeTable">
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

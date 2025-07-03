@@ -1,0 +1,68 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+#employeeDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 99%;
+    flex-wrap: wrap;
+}
+
+input {
+    padding-left: 10px;
+    border : 1px solid white;
+    border-radius: 5px;
+    width :100%;
+    height: 40px;
+}
+
+.form-group {
+    width : 30%;
+}
+
+.button {
+    width: 185px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 100;
+    border-radius: 5px;
+}
+
+.small-button {
+    width: 80px;
+    height: 22px;
+    background-color: white;
+    color: black;
+    font-size: smaller;
+    border-radius: 5px;
+    margin-top : 15px;
+}
+
+#notification {
+    margin-top: 20px;
+    color: red;
+}
+
+#para {
+    border: 2px solid grey;
+    margin-top: 2px;
+    border-radius: 6parpx;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.no_employees{
+    color: grey;
+    font-weight: 300;
+}
